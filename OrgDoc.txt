@@ -1,0 +1,47 @@
+-- tstprjfl.cpp
+
+vector<string> org
+    [0] = First name
+    [1] = Middle name
+    [2] = Last name
+    [3] = Position Abbrev.
+    [4] = Batting Abbrev.
+    [5] = Throwing Abbrev.
+
+vector<int> CS org
+    [0 ] = Games                (G)
+    [1 ] = At Bats              (AB)
+    [2 ] = Runs                 (R)
+    [3 ] = Hits                 (H)
+    [4 ] = Total Bases          (TB)
+    [5 ] = Doubles              (2B)
+    [6 ] = Triples              (3B)
+    [7 ] = Home Runs            (HR)
+    [8 ] = Runs Batted In       (RBI)
+    [9 ] = Walks                (BB)
+    [10] = Intentional Walks    (IBB)
+    [11] = Strike Outs          (SO)
+    [12] = Stolen Bases         (SB)
+    [13] = Caught Stealing      (CS)
+
+vector<int> ACS org
+    [0 ] = Plate Appearances     (PA)
+    [1 ] = Extra Base Hits       (XBH)
+    [2 ] = Hit By Pitch          (HBP)
+    [3 ] = Sacrifice Bunts       (SAC)
+    [4 ] = Sacrifice Flies       (SF)
+    [5 ] = Ground in Double Play (GIDP)
+    [6 ] = GIDP Opportunities    (GIDPO)
+    [7 ] = Num. of Pitches Seen  (NP)
+    [8 ] = Reached on Error      (ROE)
+    [9 ] = Left on Base          (LOB)
+    [10] = Walk Offs             (WO)
+
+vector<float> org
+    [0] = Average               (AVG)
+    [1] = On Base Percentage    (OBP)
+    [2] = Slugging Percentage   (SLG)
+    [3] = On Base Plus Slugging (OPS)
+    [4] = Ground Out to Air Out (GO/AO)
+    [5] = AVG on Balls in Play  (BABIP)
+    [6] = NP per PA             (P/PA)
