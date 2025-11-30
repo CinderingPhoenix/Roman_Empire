@@ -1,4 +1,4 @@
-# testproj - Python front-end for C++ backend
+# Roman_Empire - Baseball statistics display program
 
 This workspace contains a small C++ program that prints player stats and a Python GUI that can run the exe, parse its output, and display the results.
 
