@@ -9,3 +9,4 @@ float playerOBP(std::vector<int> a);
 float playerSLG(std::vector<int> a);
 float playerOPS(std::vector<int> a);
 float playerBABIP(std::vector<int> a, std::vector<int> b);
+float playerPPA(std::vector<int> a);

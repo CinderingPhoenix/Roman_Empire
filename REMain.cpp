@@ -13,7 +13,8 @@ int main() {
                              playerSLG(wdarfnCS), 
                              playerOPS(wdarfnCS), 
                              0.0f, // Placeholder for GO/AO
-                             playerBABIP(wdarfnCS, wdarfnACS)};
+                             playerBABIP(wdarfnCS, wdarfnACS),
+                             playerPPA(wdarfnACS)};
 
     cout << "Name: " << wdarfs[0] << " " << wdarfs[1] << " " << wdarfs[2] << endl;
     cout << "Position: " << wdarfs[3] << endl;

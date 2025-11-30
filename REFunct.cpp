@@ -81,3 +81,18 @@ float playerBABIP(vector<int> a, vector<int> b) {
         return 0;
     }
 }
+
+float playerPPA(vector<int> b) {
+    // PPA = NP / PA
+    
+    int NP = b[7]; // Number of Pitches
+    int PA = b[0]; // Plate Appearances
+
+    if (PA > 0) {
+        float ppa = static_cast<float>(NP) / static_cast<float>(PA);
+        return round(ppa * 100.0f) / 100.0f; // Return rounded PPA
+    }
+    else {
+        return 0;
+    }
+}
