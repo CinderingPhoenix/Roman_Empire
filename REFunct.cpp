@@ -1,4 +1,4 @@
-#include "testproj.h"
+#include "REProj.h"
 
 using namespace std;
 

@@ -199,7 +199,7 @@ def find_exe():
     cand = Path.cwd() / EXE_NAME
     if cand.exists():
         return cand
-    fallback = Path(r"c:\Users\cjhar\Documents\testproj\testproj.exe")
+    fallback = Path(r"c:\Users\cjhar\Documents\Roman_Empire\testproj.exe")
     if fallback.exists():
         return fallback
     raise FileNotFoundError(f"{EXE_NAME} not found. Put it next to this script or update the path.")
